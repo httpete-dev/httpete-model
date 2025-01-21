@@ -16,9 +16,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Resource Include="..\..\..\..\..\Users\daeng\Downloads\HTTPETE-icon.png">
+    <Resource Include="..\HTTPETE-icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
