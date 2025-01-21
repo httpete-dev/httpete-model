@@ -37,8 +37,8 @@ namespace HttPete.Model.Tenants
         {
             Url = "/example/get-example";
             Method = MethodType.POST.ToString();
-            Headers = Constants.DEFAULT_HEADERS;
-            Body = Constants.DEFAULT_BODY;
+            Headers = Constants.DEFAULT_ENDPOINT_HEADERS;
+            Body = Constants.DEFAULT_ENDPOINT_BODY;
             CollectionId = collectionId;
             OrganizationId = organizationId;
             WorkspaceId = workspaceId;
